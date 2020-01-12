@@ -1,12 +1,18 @@
-# Storage link from route generator
+# Storage Link Route
 
-## Install
+Provides an easy way to creates a symlink from ```public/storage``` to ```storage/app/public``` for shared hostings.
 
-```php
-composer require arielmejiadev/storage-link-route
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
+composer install arielmejidev/storage-link-route
 ```
 
-## Visit Route
+## Usage
 
-Go to you browser and open your base path/storage-link, it will show you a message
-now you have the sym link from public/storage to storage/app/public folders
+Visit the endpoint ```/storage-link```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
