@@ -1,0 +1,31 @@
+{
+    "name": "arielmejiadev/storage-link-route",
+    "description": "Route to execute storage:link command from shared hosting",
+    "authors": [
+        {
+            "name": "ArielMejiaDev",
+            "email": "arielmejiadev@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ArielMejiaDev\\StorageLink\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ArielMejiaDev\\StorageLink\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ArielMejiaDev\\StorageLink\\StorageLinkRouteServiceProvider"
+            ]
+        }
+    }
+}
