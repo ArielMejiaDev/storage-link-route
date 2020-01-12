@@ -1,6 +1,7 @@
 {
     "name": "arielmejiadev/storage-link-route",
     "description": "Route to execute storage:link command from shared hosting",
+    "license": "MIT",
     "authors": [
         {
             "name": "ArielMejiaDev",
