@@ -15,4 +15,4 @@ composer install arielmejidev/storage-link-route
 Visit the endpoint ```/storage-link```
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](./LICENSE.md)
